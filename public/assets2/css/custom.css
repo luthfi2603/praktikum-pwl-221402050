@@ -1,0 +1,31 @@
+.panjangKartu {
+    height: 800px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.cover {
+    width: 100%;
+}
+
+.marginBawah {
+    margin-bottom: 50px !important;
+}
+
+.keTengah {
+    margin: 0 auto;
+}
+
+.keTengah2 {
+    padding: 0 auto !important;
+}
+
+.panjangKartu2 {
+    height: auto;
+}
+
+.justi {
+    text-align: justify;
+}
