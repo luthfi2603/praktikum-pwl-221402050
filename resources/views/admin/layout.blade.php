@@ -58,6 +58,22 @@
                 Main Menu
             </div>
 
+            <!-- Nav Item - Semua Postingan -->
+            <li class="nav-item {{ request()->is('admin/postingan') ? 'active' : ''}}">
+                <a class="nav-link" href="/admin/postingan">
+                    <i class="fas fa-fw fa-file"></i>
+                    <span>Semua Postingan</span>
+                </a>
+            </li>
+
+            <!-- Nav Item - Semua Postingan -->
+            <li class="nav-item {{ request()->is('admin/user') ? 'active' : ''}}">
+                <a class="nav-link" href="/admin/user">
+                    <i class="fas fa-fw fa-file"></i>
+                    <span>Semua Users</span>
+                </a>
+            </li>
+
             <!-- Nav Item - Anime -->
             <li class="nav-item {{ request()->is('admin/anime') ? 'active' : ''}}">
                 <a class="nav-link" href="/admin/anime">
