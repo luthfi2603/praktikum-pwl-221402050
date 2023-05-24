@@ -2,14 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Mahasiswa;
 use Illuminate\Http\Request;
 
 class MahasiswaController extends Controller {
     /**
      * Display a listing of the resource.
      */
+    // public function index(){
+    //     return view('daftar_mahasiswa');
+    // }
+
     public function index(){
-        return view('daftar_mahasiswa');
+        $mahasiswas = Mahasiswa::all();
+        return view('mahasiswa', compact('mahasiswas'));
     }
 
     /**

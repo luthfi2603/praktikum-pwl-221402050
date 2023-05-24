@@ -24,7 +24,7 @@ Route::get('/daftar_mahasiswa', function () {
     return view('daftar_mahasiswa');
 });
 
-Route::get('/daftar_mahasiswa', [MahasiswaController::class, 'index']);
+Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
 Route::match(['get', 'post'], '/detail_mahasiswa',[MahasiswaController::class, 'detail']);
 
 Route::get('/', [AdminController::class, 'index']);
